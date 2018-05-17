@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="normal-view">
+    <text>{{pageName}}</text>
+  </view>
+</view>

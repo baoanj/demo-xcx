@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weui/weui",
+
+    "pages/test/test",
+
+    "pages/weui/pages/button/button",
+    "pages/weui/pages/list/list",
+    "pages/weui/pages/input/input",
+    "pages/weui/pages/slider/slider",
+    "pages/weui/pages/uploader/uploader",
+    "pages/weui/pages/article/article",
+    "pages/weui/pages/badge/badge",
+    "pages/weui/pages/flex/flex",
+    "pages/weui/pages/footer/footer",
+    "pages/weui/pages/gallery/gallery",
+    "pages/weui/pages/grid/grid",
+    "pages/weui/pages/icons/icons",
+    "pages/weui/pages/loadmore/loadmore",
+    "pages/weui/pages/panel/panel",
+    "pages/weui/pages/preview/preview",
+    "pages/weui/pages/progress/progress",
+    "pages/weui/pages/actionsheet/actionsheet",
+    "pages/weui/pages/dialog/dialog",
+    "pages/weui/pages/msg/msg",
+    "pages/weui/pages/msg/msg_success",
+    "pages/weui/pages/msg/msg_fail",
+    "pages/weui/pages/picker/picker",
+    "pages/weui/pages/toast/toast",
+    "pages/weui/pages/navbar/navbar",
+    "pages/weui/pages/tabbar/tabbar",
+    "pages/weui/pages/searchbar/searchbar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "DEMO-XCX",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon_nav_special.png",
+      "selectedIconPath": "images/icon_nav_special.png"
+    }, {
+      "pagePath": "pages/weui/weui",
+      "text": "WeUI",
+      "iconPath": "images/icon_nav_widget.png",
+      "selectedIconPath": "images/icon_nav_widget.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/icon_nav_form.png",
+      "selectedIconPath": "images/icon_nav_form.png"
+    }],
+    "color": "#b7b7b7",
+    "selectedColor": "#1aad19",
+    "backgroundColor": "#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}

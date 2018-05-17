@@ -1,0 +1,4 @@
+.inner {
+  color: #0f714e;
+  font-size: 18px;
+}

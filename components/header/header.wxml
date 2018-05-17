@@ -1,0 +1,4 @@
+<view class="inner">
+  {{headerText}}
+</view>
+<slot></slot>

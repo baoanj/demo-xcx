@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="normal-view">
+    <header header-text="Header"></header>
+    <text>{{projectName}}</text>
+  </view>
+  <view class="normal-view">
+    <inner-text inner-text="InnerText" bind:chaaaange="innerChange">
+      <text>{{innerInnerText}}</text>
+    </inner-text>
+  </view>
+  <view class="normal-view">
+    <button class="weui-btn" plain="true" type="primary" bindtap="navigateToTest">Test</button>
+  </view>
+  <view class="normal-view">
+    <button
+      class="weui-btn"
+      plain="true"
+      type="primary"
+      id="hahaha"
+      data-bye="{{projectName}}"
+      data-good="Morning"
+      bindtap="ckickMe"
+    >点击</button>
+  </view>
+  <view class="normal-view">
+    <button class="weui-btn" plain="true" type="primary" bindtap="changeMotto">Change</button>
+  </view>
+  <view class="normal-view">
+    <text>{{motto}}</text>
+  </view>
+</view>
